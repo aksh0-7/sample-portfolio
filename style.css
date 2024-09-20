@@ -1,0 +1,339 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0px 100px;
+}
+
+.Logo{
+    width: 50px;
+    margin-top: 10px;
+}
+
+.List-items{
+    list-style: none;
+    display: inline;
+    margin: 0px 20px;
+}
+
+.Links{
+    text-decoration: none;
+    color: black;
+    font-weight: 600px;
+}
+
+
+/* pseudo classes */
+.Links:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.homecontent{
+    margin: 13% 0px 0px 8%;
+}
+
+#username{
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: "Playwrite CU", system-ui;
+}
+
+#lname{
+    font-family: "Playwrite CU", system-ui;
+    color: orange;
+    font-size: 40px;
+}
+
+#userdetails{
+    line-height: 1.4;
+}
+
+#download{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 7px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.homeimage{
+    width: 45%;
+    height: 75%;
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+}
+
+.group1{
+    position: absolute;
+    height: 100%;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: bottom 1s ,left 1s ;
+}
+
+.homeimage:hover #shape{
+    bottom: 70px;
+}
+
+.homeimage:hover #girl{
+    left: 30%;
+}
+
+#About{
+    margin: 25% 8% 0px 8%;
+}
+
+.sectionhead{
+    text-align: center;
+
+}
+
+.Mainhead{
+    font-size: 30px;
+}
+
+.subhead{
+    font-size: 20px;
+    color: green;
+}
+
+.aboutbody{
+    margin-top: 20px;
+    display: grid;
+    /* grid-template-columns: auto auto; */
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+    align-items: center;
+}
+
+.img1{
+    width: 80%;
+}
+
+.aboutcontent{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.information{
+    margin-top: 1.3rem;
+}
+
+.infobox{
+    margin-bottom: 10px;
+}
+
+.infobox>span{
+    margin-left: 10px;
+}
+
+.skillbody{
+    margin-top: 20px;
+    display: grid;
+    /* grid-template-columns: auto auto; */
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+    align-items: center;
+}
+
+.img2{
+    width: 100%;
+    height: 500px;
+}
+
+.pbar{
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 50px;
+    font-family: "Fjalla One", system-ui;
+}
+
+.bla1{
+    width: 11%;
+    height: 10px;
+    background-color: black;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.bla2{
+    width: 16%;
+    height: 10px;
+    background-color: black;
+    border-radius: 0px 10px 10px 0px;
+
+}
+
+.bla3{
+    width: 30%;
+    height: 10px;
+    background-color: black;
+    border-radius: 0px 10px 10px 0px;
+
+}
+.bla4{
+    width: 15%;
+    height: 10px;
+    background-color: black;
+    border-radius: 0px 10px 10px 0px;
+
+}
+
+.htm{
+    width: 89%;
+    height: 10px;
+    background-color: orange;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.css{
+    width: 84%;
+    height: 10px;
+    background-color: orange;
+    border-radius: 10px 0px 0px 10px;
+
+}
+
+.js{
+    width: 70%;
+    height: 10px;
+    background-color: orange;
+    border-radius: 10px 0px 0px 10px;
+
+}
+
+.rea{
+    width: 85%;
+    height: 10px;
+    background-color: orange;
+    border-radius: 10px 0px 0px 10px;
+
+}
+
+.progress{
+    display: flex;
+    padding-bottom: 15px;
+}
+
+#percent1{
+    margin-left: 706px;
+}
+
+#percent2{
+    margin-left: 721px;
+}
+
+#percent3{
+    margin-left: 740px;
+}
+
+#percent4{
+    margin-left: 700px;
+}
+
+#skills{
+    margin: 8% 8% 0px 8%;
+}
+
+
+#contact{
+    margin: 8% 8% 0px 8%;
+}
+
+.iconcollections{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 5%;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    /* border: solid; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+.brands{
+    color: black;
+    font-size: 2rem;
+}
+
+.icon:hover{
+    /* background-image: linear-gradient(to bottom right,orange ,green); */
+    background-color: orange;
+}
+
+.icon:hover .brands{
+    color: white;
+    animation: rotate 3s;
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(40deg);
+    }
+
+    40%{
+        transform: rotate(-40deg);
+    }
+    60%{
+        transform: rotate(40deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+footer{
+    margin: 8% 0px 0px 0px;
+}
+
+#copyright{
+    text-align: center;
+    font-weight: 600;
+}
+
+.uparrow{
+  float: right;
+  margin: -35px 20px 0px 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: azure;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: orange;
+    border-radius: 10px;
+}

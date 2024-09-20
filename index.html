@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- CSS link -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- link font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Fjalla+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+CU:wght@100..400&family=Silkscreen:wght@400;700&display=swap"
+        rel="stylesheet">
+    <!-- Animation -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <!-- Nav -->
+        <nav>
+            <!-- Logo -->
+            <img class="Logo animate__animated animate__rotateIn" src="https://static-00.iconduck.com/assets.00/openai-icon-2021x2048-4rpe5x7n.png" alt="">
+            <!-- Links -->
+            <ul>
+                <li class="List-items"><a class="Links" href="#Home">Home</a></li>
+                <li class="List-items"><a class="Links" href="#About">About</a></li>
+                <li class="List-items"><a class="Links" href="#skills">Skills</a></li>
+                <li class="List-items"><a class="Links" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Home -->
+        <section class="home" id="Home">
+            <!-- Home Content -->
+            <div class="homecontent">
+                <h1 class="animate__animated animate__flip" id="username">I'm Maria<span id="lname"> Joe</span></h1>
+                <p id="userdetails">This is my official Portfolio website to describe all <br>
+                    details and experience in web development.</p>
+                <a id="download" href="./resume.pdf" download="Resume">DOWNLOAD CV</a>
+            </div>
+            <!-- Home Image -->
+            <div class="homeimage">
+                <img id="shape" class="group1" src="./images/shape.png" alt="">
+                <img id="girl" class="group1" src="./images/woman.png" alt="">
+            </div>
+        </section>
+        <!-- About -->
+        <section id="About">
+            <div class="sectionhead">
+                <h2 class="Mainhead">About Me</h2>
+                <span class="subhead">Introduction</span>
+            </div>
+            <div class="aboutbody">
+                <div data-aos="zoom-in-up" class="aboutimage">
+                    <img class="img1" src="./images/about.avif" alt="">
+                </div>
+                <div class="aboutcontent">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur animi accusantium ipsa veniam
+                        error molestias nostrum ut perferendis ratione doloribus laboriosam repudiandae sunt, placeat
+                        vel, nobis maxime natus reprehenderit cum.</p>
+                    <div class="information">
+                        <div class="infobox">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Maria Joe</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>999999999</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>ask383@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- Skill -->
+        <section id="skills">
+            <div class="sectionhead">
+                <h2 class="Mainhead">Skills</h2>
+                <span class="subhead">My Skills</span>
+            </div>
+            <div class="skillbody">
+                <div class="pbar">
+                    <span>HTML</span><span id="percent1">89%</span>
+                    <div class="progress">
+                        <div data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" class="htm"></div>
+                        <div class="bla1"></div>
+                    </div>
+                    <span>CSS</span><span id="percent2">84%</span>
+                    <div class="progress">
+                        <div data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" class="css"></div>
+                        <div class="bla2"></div>
+                    </div>
+                    <span>JS</span><span id="percent3">70%</span>
+                    <div class="progress">
+                        <div data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" class="js"></div>
+                        <div class="bla3"></div>
+                    </div>
+                    <span>REACT</span><span id="percent4">85%</span>
+                    <div class="progress">
+                        <div data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" class="rea"></div>
+                        <div class="bla4"></div>
+                    </div>
+                </div>
+                <div data-aos="zoom-in-up" class="skillimage">
+                    <img class="img2" src="./images/skill.webp" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- Contact -->
+        <section id="contact">
+            <div class="sectionhead">
+                <h2 class="Mainhead">Contacts</h2>
+                <span class="subhead">My Contacts</span>
+            </div>
+            <div class="iconcollections">
+                <div class="icon">
+                    <a href="www.linkedin.com/in/akshay-krishnaa" target="_blank"><i
+                            class="fa-brands fa-linkedin brands"></i></a>
+                </div>
+                <div class="icon">
+                    <a href=""><i class="fa-brands fa-github brands"></i></a>
+                </div>
+                <div class="icon">
+                    <a href=""><i class="fa-brands fa-square-instagram brands"></i></a>
+                </div>
+                <div class="icon">
+                    <a href=""><i class="fa-brands fa-facebook brands"></i></a>
+                </div>
+                <div class="icon">
+                    <a href=""><i class="fa-brands fa-square-twitter brands"></i></a>
+                </div>
+                <div class="icon">
+                    <a href=""><i class="fa-solid fa-envelope brands"></i></a>
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer>
+            <p id="copyright">&copy; My Portfolio Website -Sep 2024, All Rights Reserved to &reg; Maria Joe </p>
+            <div class="icon uparrow">
+                <a href="#container"><i class="fa-solid fa-angle-up brands"></i></a>
+            </div>
+        </footer>
+        <br><br>
+    </div>
+</body>
+<!-- script AOS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+
+</html>
